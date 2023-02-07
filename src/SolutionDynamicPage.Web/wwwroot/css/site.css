@@ -1,0 +1,101 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+.img-logo{
+
+    width: 150px;
+
+}
+
+.bussiness-container {
+    padding-top: 5em;
+    padding-bottom: 6em;
+}
+
+.bussines-list {
+    list-style: none;
+}
+
+.bussines-item {
+    padding-right: 2em
+}
+
+.paragraph-text{
+
+    font-size: 15pt;
+}
+
+.banner-container img {
+    
+
+    width: 1280px;
+    height:300px;
+    
+}
+
+
+.img-bussiness {
+    /*position: absolute;
+    right: 500px;
+    left: 905px*/
+    width: 500px;
+    height: 500px;
+}
+
+.text-site{
+
+    padding-top: 2em;
+}
+
+
+#footer {
+    padding-top: 4em;
+}
+
+.img-network{
+
+    width: 20px;
+}
+
+.form-group{
+
+    padding-top: 2em;
+}
+
+.crud-text {
+    padding-top: 2em;
+}
+
+.preset-button {
+    padding-top: 2em;
+}
+
+.login-field{
+
+    padding-top: 6em;
+}
+
+.login-title{
+
+    padding-top: 3em;
+}
+
+
+

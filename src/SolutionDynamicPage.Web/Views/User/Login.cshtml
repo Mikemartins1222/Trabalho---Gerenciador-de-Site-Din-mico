@@ -1,0 +1,47 @@
+﻿@using SolutionDynamicPage.Infra.Domain.DTO;
+@model SolutionDynamicPage.Infra.Domain.DTO.UserDTO
+
+<h3 class="login-title display-6">Olá, você é o adm?</h3>
+
+<form asp-controller="User" asp-action="ValidLogin" method="Post">
+   
+  
+    
+    <div class="login-field">
+       
+        
+        <div class="form-outline mb-4">
+        <label class="form-label" for="form2Example1">Login</label>
+        <input type="text" asp-for="login" class="form-control" placeholder="Digite o Login"/>
+        <span asp-validation-for="login" class="text-danger"></span>
+        </div>
+
+         <div class="form-outline mb-4">
+         <label class="form-label" for="form2Example2">Senha</label>
+         <input type="password" asp-for="password" class="form-control" placeholder="Digite a Senha" />
+         <span asp-validation-for="password" class="text-danger"></span>
+          </div>
+
+        @{
+            if(TempData["Login Incorreto"] != null){
+
+            <div class="alert alert-danger" role="alert">
+           @TempData["Login Incorreto"]
+            </div>
+             }
+        }
+   </div>
+  
+       <div class="form-group">
+        <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+
+
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

@@ -1,0 +1,15 @@
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\bin\Debug\net6.0\SolutionDynamicPage.Service.deps.json
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\bin\Debug\net6.0\SolutionDynamicPage.Service.dll
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\bin\Debug\net6.0\SolutionDynamicPage.Service.pdb
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\bin\Debug\net6.0\SolutionDynamicPage.Infra.Domain.dll
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\bin\Debug\net6.0\SolutionDynamicPage.Infra.Domain.pdb
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\SolutionDynamicPage.Service.csproj.AssemblyReference.cache
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\SolutionDynamicPage.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\SolutionDynamicPage.Service.AssemblyInfoInputs.cache
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\SolutionDynamicPage.Service.AssemblyInfo.cs
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\SolutionDynamicPage.Service.csproj.CoreCompileInputs.cache
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\SolutionDynamicPage.Service.csproj.CopyComplete
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\SolutionDynamicPage.Service.dll
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\refint\SolutionDynamicPage.Service.dll
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\SolutionDynamicPage.Service.pdb
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Service\obj\Debug\net6.0\ref\SolutionDynamicPage.Service.dll

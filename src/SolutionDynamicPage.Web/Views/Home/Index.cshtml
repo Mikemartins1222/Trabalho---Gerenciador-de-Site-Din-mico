@@ -1,0 +1,122 @@
+﻿@model SolutionDynamicPage.Infra.Domain.DTO.SiteProfileDTO;
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <img class="img-logo" src="~/img/@Model.imageLogo" alt="First slide">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">@Model.businessName</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="banner-container">
+    <img class="w-100" src="~/img/@Model.imageBanner" alt="Banner">
+</div>
+
+<div class="bussiness-container">
+    <ul class="bussines-list d-flex">
+        <li class="bussines-item">
+            <h1 class="display-3">@Model.title</h1>
+            <p class="lead text-site">@Model.description</p>
+        </li>
+     
+    </ul>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <!-- Left -->
+        <!-- Right -->
+        <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3"></i>@Model.businessName
+                    </h6>
+                    <p>
+                        @Model.footerDescription
+                    </p>
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Social Networks
+                    </h6>
+
+                    @{
+                        if (Model.facebookAdress != null)
+                        {
+                            <p>
+                                <a href="#!" class="text-reset">@Model.facebookAdress</a>
+                                <img class="img-network" src="~/img/FacebookLogo.png" alt="First slide">
+                            </p>
+
+                        }
+
+                    }
+                    @{
+                        if (Model.instagramAdress != null)
+                        {
+                            <p>
+                                <a href="#!" class="text-reset">@Model.instagramAdress</a>
+                                <img class="img-network" src="~/img/InstagramLogo.png" alt="First slide">
+                            </p>
+
+                        }
+
+                    }
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p><i class="fas fa-home me-3"></i>@Model.address</p>
+                    <p>
+                        <i class="fas fa-envelope me-3"></i>
+                        @Model.email
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i>@Model.phone</p>
+                    <p><i class="fas fa-print me-3"></i>@Model.cellPhone</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+<!-- Footer -->

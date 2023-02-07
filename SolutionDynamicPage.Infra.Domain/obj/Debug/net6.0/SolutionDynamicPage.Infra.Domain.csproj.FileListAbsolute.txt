@@ -1,0 +1,12 @@
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\bin\Debug\net6.0\SolutionDynamicPage.Infra.Domain.deps.json
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\bin\Debug\net6.0\SolutionDynamicPage.Infra.Domain.dll
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\bin\Debug\net6.0\SolutionDynamicPage.Infra.Domain.pdb
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\obj\Debug\net6.0\SolutionDynamicPage.Infra.Domain.csproj.AssemblyReference.cache
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\obj\Debug\net6.0\SolutionDynamicPage.Infra.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\obj\Debug\net6.0\SolutionDynamicPage.Infra.Domain.AssemblyInfoInputs.cache
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\obj\Debug\net6.0\SolutionDynamicPage.Infra.Domain.AssemblyInfo.cs
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\obj\Debug\net6.0\SolutionDynamicPage.Infra.Domain.csproj.CoreCompileInputs.cache
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\obj\Debug\net6.0\SolutionDynamicPage.Infra.Domain.dll
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\obj\Debug\net6.0\refint\SolutionDynamicPage.Infra.Domain.dll
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\obj\Debug\net6.0\SolutionDynamicPage.Infra.Domain.pdb
+C:\devs2blu\CSharpMVC\SolutionDynamicPage\SolutionDynamicPage\SolutionDynamicPage.Infra.Domain\obj\Debug\net6.0\ref\SolutionDynamicPage.Infra.Domain.dll

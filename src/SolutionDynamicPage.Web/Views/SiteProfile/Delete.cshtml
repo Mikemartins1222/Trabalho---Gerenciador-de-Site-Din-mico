@@ -1,0 +1,13 @@
+﻿@using SolutionDynamicPage.Infra.Domain.DTO;
+@model SolutionDynamicPage.Infra.Domain.DTO.SiteProfileDTO
+
+<div class="text-center">
+<h3 class="crud-text">Deseja Realmente Deleter o Perfil: "@Model.profileName"?</h3>
+
+    <a class="btn btn-warning btn-block" role="button" asp-controller="SiteProfile" asp-action="ListProfile">Cancelar</a>
+    <a class="btn btn-danger btn-block" role="button" asp-controller="SiteProfile" asp-action="DeleteIsConfirmed" asp-route-id="@Model.id">Deletar</a>
+</div>
+   
+
+
+  

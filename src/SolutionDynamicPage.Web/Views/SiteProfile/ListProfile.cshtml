@@ -1,0 +1,66 @@
+﻿@using SolutionDynamicPage.Infra.Domain.DTO;
+@model IEnumerable<SiteProfileDTO>
+
+<p class="preset-button">
+    <a class="btn btn-primary" asp-action="Create">Criar Preset de Site</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.profileName)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.isPublished)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+              
+                <td>
+                    @Html.DisplayFor(modelItem => item.profileName)
+                </td>
+
+                  <td>
+                    @Html.DisplayFor(modelItem => item.isPublished)
+                </td>
+  
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                    @{
+                        if (!item.isPublished)
+                        {
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                        }
+                       
+                    }
+                   
+                    <a class="btn btn-secondary" asp-action="PreviewPage" asp-route-id="@item.id">Preview</a>
+                    @{
+
+                        if (item.isPublished)
+                        {
+                            
+                               <button class="btn btn-success" >Publicado</button>
+
+                        }
+                        else
+                        {
+
+                            <a class="btn btn-outline-success" asp-controller="Home" asp-action="ChangePublication" asp-route-id="@item.id">Publicar</a>
+
+                        }
+
+
+                    }
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

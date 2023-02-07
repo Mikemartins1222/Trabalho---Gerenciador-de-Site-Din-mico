@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SolutionDynamicPage.Service/1.0.0": {
+        "dependencies": {
+          "SolutionDynamicPage.Infra.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SolutionDynamicPage.Service.dll": {}
+        }
+      },
+      "SolutionDynamicPage.Infra.Domain/1.0.0": {
+        "runtime": {
+          "SolutionDynamicPage.Infra.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SolutionDynamicPage.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SolutionDynamicPage.Infra.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
