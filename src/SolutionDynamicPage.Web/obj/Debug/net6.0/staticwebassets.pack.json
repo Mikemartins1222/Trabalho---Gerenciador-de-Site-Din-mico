@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\img\\banner1.jpg"
     },
     {
+      "Id": "C:\\devs2blu\\CSharpMVC\\SolutionDynamicPage\\SolutionDynamicPage\\src\\SolutionDynamicPage.Web\\wwwroot\\img\\construction-banner-yellow-black-grunge-stripes-diagonal-vector-illustration-178451615.jpg",
+      "PackagePath": "staticwebassets\\img\\construction-banner-yellow-black-grunge-stripes-diagonal-vector-illustration-178451615.jpg"
+    },
+    {
       "Id": "C:\\devs2blu\\CSharpMVC\\SolutionDynamicPage\\SolutionDynamicPage\\src\\SolutionDynamicPage.Web\\wwwroot\\img\\download (1).png",
       "PackagePath": "staticwebassets\\img\\download (1).png"
     },

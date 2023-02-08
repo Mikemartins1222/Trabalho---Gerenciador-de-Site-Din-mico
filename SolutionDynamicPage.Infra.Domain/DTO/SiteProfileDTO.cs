@@ -36,13 +36,13 @@ namespace SolutionDynamicPage.Infra.Domain.DTO
         [Required(ErrorMessage = "Digite o Celular")]
         [Phone]
         public string cellPhone { get; set; }
-        public string imageLogo { get; set; }
-        public string imageBanner { get; set; }
+        public string? imageLogo { get; set; }
+        public string? imageBanner { get; set; }
         
         [Required(ErrorMessage = "Digite o Título do Texto")]
         public string title { get; set; }
 
-        public string imageDescription { get; set; }
+        public string? imageDescription { get; set; }
 
         [Required(ErrorMessage = "Digite a Descrição do Rodapé")]
         public string footerDescription { get; set; }

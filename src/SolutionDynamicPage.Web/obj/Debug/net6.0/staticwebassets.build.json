@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1pI2NsdMsBL7A7Vuw9L9vKo+RirwmahtFT5zCfOqVZs=",
+  "Hash": "NcNOj0jeQjoxML03+uYasmnQZaJm4FAfUjPzRXGmPjs=",
   "Source": "SolutionDynamicPage.Web",
   "BasePath": "_content/SolutionDynamicPage.Web",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\banner1.jpg"
+    },
+    {
+      "Identity": "C:\\devs2blu\\CSharpMVC\\SolutionDynamicPage\\SolutionDynamicPage\\src\\SolutionDynamicPage.Web\\wwwroot\\img\\construction-banner-yellow-black-grunge-stripes-diagonal-vector-illustration-178451615.jpg",
+      "SourceId": "SolutionDynamicPage.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\devs2blu\\CSharpMVC\\SolutionDynamicPage\\SolutionDynamicPage\\src\\SolutionDynamicPage.Web\\wwwroot\\",
+      "BasePath": "_content/SolutionDynamicPage.Web",
+      "RelativePath": "img/construction-banner-yellow-black-grunge-stripes-diagonal-vector-illustration-178451615.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\construction-banner-yellow-black-grunge-stripes-diagonal-vector-illustration-178451615.jpg"
     },
     {
       "Identity": "C:\\devs2blu\\CSharpMVC\\SolutionDynamicPage\\SolutionDynamicPage\\src\\SolutionDynamicPage.Web\\wwwroot\\img\\download (1).png",

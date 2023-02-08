@@ -19,7 +19,7 @@ namespace SolutionDynamicPage.Web.Controllers
 
 
         }
-        //[Route("SiteList")]
+    
         public IActionResult ListProfile()
         {
             var listSite = _service.FindAll();
@@ -33,12 +33,10 @@ namespace SolutionDynamicPage.Web.Controllers
         }
 
      
-
-
         public async Task<IActionResult> Delete(int id)
         {
             var siteProfileD = await _service.FindById(id);
-            //Terminar o delete e fazer o edit// trabalhar no css para melhorar a estética
+            
 
             return View(siteProfileD);
         }
@@ -53,22 +51,22 @@ namespace SolutionDynamicPage.Web.Controllers
 
         public IActionResult Create()
         {
-            //Fazer validações do tamanho do texto (Is.Valid)
-
-            return View();
+             return View();
         }
 
         [HttpPost]
-        public async Task <IActionResult> Create(SiteProfileDTO newSite, IFormFile imageLogo, IFormFile imageBanner)
+        public async Task<IActionResult> Create(SiteProfileDTO newSite, IFormFile imageLogo, IFormFile imageBanner)
         {
-            //if (ModelState.IsValid)
-           // {
+
+
+            if (ModelState.IsValid)
+            {
                 //Salvando a imagem da logo
                 Stream stream;
                 string path = _pathName + "\\img\\";
                 string newImageBannerName = imageBanner.FileName;
                 string newImageLogoName = imageLogo.FileName;
-            
+
 
 
                 stream = System.IO.File.Create(path + newImageBannerName);
@@ -86,11 +84,19 @@ namespace SolutionDynamicPage.Web.Controllers
                 _service.Save(newSite);
 
                 return View("PreviewPage", newSite);
-        
+
+
+
+            }
+            else
+
+            {
+                return RedirectToAction("SiteProfile", "Create");
+            }
+
+            
 
         }
-
-
         public async Task<IActionResult> Edit(int id)
         {
             var siteProfileD = await _service.FindById(id);
